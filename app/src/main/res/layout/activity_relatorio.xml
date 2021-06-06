@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.RelatoriosActivity">
+
+    <TextView
+        android:id="@+id/txtAfericao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="28dp"
+        android:text="Relatório"
+        android:textSize="34dp"
+        android:textColor="@color/preto"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtCabecalhoRelatorio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/preto" />
+
+    <TextView
+        android:id="@+id/txtCorpoRelatorio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/preto" />
+
+    <Button
+        android:id="@+id/btnGerarRelatorioDiabetico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Gerar Relatório Diabético"
+        tools:layout_editor_absoluteX="31dp" />
+
+    <Button
+        android:id="@+id/btnGerarRelatorioHipertenso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Gerar Relatório Hipertenso"
+        tools:layout_editor_absoluteX="31dp" />
+
+    <Button
+        android:id="@+id/btnMedicamentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Listar Medicamentos"
+        tools:layout_editor_absoluteX="31dp" />
+
+</LinearLayout>

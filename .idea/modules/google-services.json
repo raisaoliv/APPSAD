@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1262577296",
+    "project_id": "sad-1f477",
+    "storage_bucket": "sad-1f477.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1262577296:android:f5e8b6d24f01ac66311a15",
+        "android_client_info": {
+          "package_name": "br.com.exemplo.AppAfericaoDiaria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1262577296-pduc2ti6i2ro59ujdqjb64n235uunurp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDif3imUA8ec_FtXbUKpOzAYud4zNoYbkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1262577296-pduc2ti6i2ro59ujdqjb64n235uunurp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
